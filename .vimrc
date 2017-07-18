@@ -22,7 +22,7 @@ filetype plugin indent on
 " -------- YouCompleteMe configuration{{{
 " Rust source code path:
 let g:ycm_rust_src_path = $RUST_SOURCE_CODE_PATH
-let g:ycm_filetype_blacklist = {'tex': 1}
+let g:ycm_filetype_blacklist = {'tex': 1, 'markdown': 1}
 " }}}
 
 " -------- Syntastic configuration {{{
