@@ -28,6 +28,15 @@ let g:ycm_filetype_blacklist = {'tex': 1, 'markdown': 1}
 nnoremap <leader>gt :YcmCompleter GoTo<cr>
 " }}}
 
+"
+" -------- vim_markdown {{{
+" Markdown folding seem to make vim_markdown very slow.
+" Disable it:
+let g:vim_markdown_folding_disabled=1
+let g:vim_markdown_math=1
+" }}}
+
+
 " -------- Syntastic configuration {{{
 let g:syntastic_javascript_checkers = ['eslint']
 " See http://stackoverflow.com/questions/7233005/how-to-configure-syntastic-with-jshint
