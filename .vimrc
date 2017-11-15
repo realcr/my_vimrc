@@ -20,6 +20,14 @@ Plugin 'plasticboy/vim-markdown'
 call vundle#end()
 filetype plugin indent on
 
+" ------- Leader keys {{{
+" Set leader key for global scripts:
+let mapleader = "-"
+" set local leader key for specific file type scripts:
+" Note: It is set to \, the other \ is for escaping.
+let maplocalleader = "\\"
+" }}}
+
 "
 " -------- YouCompleteMe configuration{{{
 " Rust source code path:
@@ -78,13 +86,6 @@ set backspace=indent,eol,start
 " colorscheme darkblue
 " }}}
 
-" ------- Leader keys {{{
-" Set leader key for global scripts:
-let mapleader = "-"
-" set local leader key for specific file type scripts:
-" Note: It is set to \, the other \ is for escaping.
-let maplocalleader = "\\"
-" }}}
 
 " ------- tabs and spaces {{{
 
