@@ -16,6 +16,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'cstrahan/vim-capnp'
 
 call vundle#end()
 filetype plugin indent on
